@@ -1,0 +1,49 @@
+{
+  "name": "react-social-share-button",
+  "version": "1.0.0",
+  "description": "Lightweight social media share buttons in React",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tfiechowski/react-social-share-button.git"
+  },
+  "keywords": [
+    "facebook",
+    "google",
+    "plus",
+    "pinterest",
+    "twitter",
+    "share",
+    "social",
+    "media"
+  ],
+  "author": "Tomasz Fiechowski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tfiechowski/react-social-share-button/issues"
+  },
+  "homepage": "https://github.com/tfiechowski/react-social-share-button#readme",
+  "devDependencies": {
+    "@codility/eslint-config-codility": "^1.0.2",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.0",
+    "babel-plugin-tester": "^4.0.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "eslint": "^4.7.2",
+    "eslint-config-prettier": "^2.5.0",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-react": "^7.3.0",
+    "prettier-eslint": "^8.1.1",
+    "rollup": "^0.50.0",
+    "rollup-plugin-babel": "^3.0.2"
+  },
+  "dependencies": {
+    "prop-types": "15.6.0",
+    "react": "16.1.1"
+  }
+}
