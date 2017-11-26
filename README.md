@@ -5,7 +5,12 @@
 This library contains lightweight social media share buttons as React
 components.
 
-Usage:
+![Icons](assets/icons.png)
+
+They are dependency free and don't load any external resources. Icons are rendered using `<svg>` with inserted `<path d="...">`.
+
+
+## Usage:
 
 ```jsx
 import ShareButton from 'react-social-share-buttons'
