@@ -1,34 +1,36 @@
-import babel from 'rollup-plugin-babel';
+import babel from "rollup-plugin-babel";
 
-const pkg = require('./package.json');
+const pkg = require("./package.json");
 const external = [...Object.keys(pkg.dependencies)];
 
 export default {
-  input: 'src/index.js',
+  input: "src/index.js",
   plugins: [
     babel({
       babelrc: false,
       presets: [
         [
-          'env',
+          "env",
           {
             targets: {
-              node: 6,
+              node: 6
             },
-            exclude: ['transform-regenerator'],
+            exclude: ["transform-regenerator"],
             loose: true,
-            modules: false,
-          },
+            modules: false
+          }
         ],
-      ],
-    }),
+        "react",
+        "minify"
+      ]
+    })
   ],
   external,
   output: [
     {
       file: pkg.main,
-      format: 'cjs',
-    },
+      format: "cjs"
+    }
   ],
-  interop: false,
+  interop: false
 };

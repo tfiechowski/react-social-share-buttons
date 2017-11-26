@@ -4,6 +4,7 @@
   "description": "Lightweight social media share buttons in React",
   "main": "lib/index.js",
   "scripts": {
+    "build": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -30,6 +31,7 @@
     "@codility/eslint-config-codility": "^1.0.2",
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.0.0",
+    "babel-minify": "0.2.0",
     "babel-plugin-tester": "^4.0.0",
     "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.24.1",
