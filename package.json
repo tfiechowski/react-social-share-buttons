@@ -1,5 +1,5 @@
 {
-  "name": "react-social-share-button",
+  "name": "react-social-share-buttons",
   "version": "1.0.0",
   "description": "Lightweight social media share buttons in React",
   "main": "lib/index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tfiechowski/react-social-share-button.git"
+    "url": "git+https://github.com/tfiechowski/react-social-share-buttons.git"
   },
   "keywords": [
     "facebook",
@@ -24,9 +24,9 @@
   "author": "Tomasz Fiechowski",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tfiechowski/react-social-share-button/issues"
+    "url": "https://github.com/tfiechowski/react-social-share-buttons/issues"
   },
-  "homepage": "https://github.com/tfiechowski/react-social-share-button#readme",
+  "homepage": "https://github.com/tfiechowski/react-social-share-buttons#readme",
   "devDependencies": {
     "@codility/eslint-config-codility": "^1.0.2",
     "babel-core": "^6.26.0",
