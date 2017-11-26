@@ -10,7 +10,7 @@ components.
 They are dependency free and don't load any external resources. Icons are rendered using `<svg>` with inserted `<path d="...">`.
 
 
-## Usage:
+### Usage:
 
 ```jsx
 import ShareButton from 'react-social-share-buttons'
@@ -33,4 +33,8 @@ function SomeComponent({}) {
 
 Available social media types: `facebook`, `google-plus`, `twitter`, `pinterest`.
 
-TODO: Describe props, improve readme further
+### Props
+
+
+
+**TODO**: Describe props, improve readme further
